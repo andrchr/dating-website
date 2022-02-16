@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: pink;
+
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    padding-right: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 36px;
+}
+
+.promotion {
+    flex-grow: 1;
+    object-fit: fill;
+    justify-content: flex-end;
+    
+}
+
+div.container > div:nth-child(2) {
+    padding-right: 0px;
+}
+
+.footer {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+
+button {
+    background-color:#fd09f1;
+    border-radius: 10%;
+    border-color: #fd09f1;
+
+}
+
+.footer {
+    
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    font-size: smaller;
+    
+    
+}
+
+.feedback {
+    display: flex;
+    gap: 24px;
+    padding: 48px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.example {
+    object-fit:fill;
+    border-width: thick;
+    border-color: pink;
+    border-radius: 20%;
+    
+    
+}
+
+
+
+img.sample {
+    object-fit: cover;
+    width:100px;
+    position: relative;
+    
+}
+
